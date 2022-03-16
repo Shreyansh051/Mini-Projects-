@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href=".\style_1.css">
+</head>
+<body>
+   <div id="container">
+        <form id="form">
+            <h1>Add Product</h1>
+            <p>Category</p>
+            <select id="cat">
+                <option value="Home Appliance">
+                    Home Appliance
+                </option>
+                <option value="Electronics">
+                    Electronics
+                </option>
+                <option value=" Furniture">
+                  Furniture
+                </option>
+                <option value="Automobile">
+                    Automobile
+                </option>
+                <option value="Medical Device">
+                    Medical Device
+                </option>
+            </select>
+            <p>TItle</p>
+            <input id="title" type="text" placeholder="Type Title Here" >
+            <br>
+            <br>
+            <p>Description</p>
+            <textarea id="des" rows="4" cols="48"></textarea>
+            <br>
+            <p>Price</p>
+            <input id="price" type="number" placeholder="#"/>
+            <br>
+            <input id="add" name="form" type="submit" value="ADD"/>
+            <!-- <button id="add" name="subject" type="submit" value="HTML">ADD</button> -->
+            <!-- this two method can we use for changing the name of submit button -->
+        </form>
+        <div id="product">
+            <h1>Product Info</h1>
+            <table>
+           <thead>
+         <tr>
+            
+            <th>Category</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Price</th>
+         </tr> 
+           </thead>
+           <tbody>
+        
+           </tbody>
+            </table>
+        
+        </div>
+   
+    </div>
+    
+</body>
+</html>
+  <script src="./first_1.js"></script>
