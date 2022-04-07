@@ -1,0 +1,13 @@
+#products_data{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+
+}
+#products_data>div{
+    border:2px solid black;
+    height: 400px;
+    text-align: center;
+    
+}

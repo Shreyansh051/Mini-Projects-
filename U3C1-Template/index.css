@@ -1,0 +1,17 @@
+#product_form{
+
+ height: 400px;
+ width: 30%;
+ margin: auto;
+
+
+}
+h2{
+    text-align: center;
+}
+#show_products{
+ margin:auto;
+ width: 150px;
+ height: 40px;
+ margin-left: 40%;
+}

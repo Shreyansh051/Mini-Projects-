@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="count"></h1>
+   
+</body>
+<script>
+    let setvalue=document.getElementById("count");
+    function counter(){
+        let i= 20;
+     let id= setInterval(function(){
+          i=i-1;
+
+          setvalue.innerText =i;
+         if(i==0){
+             clearInterval(id);
+         }
+
+      }, 1000) ;
+
+    } 
+    counter();
+</script>
+</html>

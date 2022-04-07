@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <title>Unit-2 C2</title>
+  <style>
+    #courses {
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin: auto;
+      height: 350px;
+      width: 80%;
+      gap: 0px;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 30px;
+    }
+
+    .child {
+      display: flex;
+      gap: 0px;
+      width: 90%;
+      height: 140px;
+      margin: 10px 10px;
+
+    }
+
+    .material-icons {
+      color: white;
+      margin: 20px;
+
+    }
+
+    .icon {
+
+
+      height: 60px;
+      width: 30%;
+      border-radius: 100%;
+      background-color: rgb(136, 190, 88);
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 20px;
+    }
+
+    .next {
+      margin-top: -20px;
+      margin-bottom: -10px;
+    }
+
+    .next p {
+      padding-top: 10px;
+
+    }
+
+    #description {
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0px 40px;
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 60px;
+    }
+
+    #teachers {
+
+      height: 500px;
+      width: 100%;
+      display: flex;
+      text-align: center;
+      gap: 10px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    #teachers>div {
+
+      height: 450px;
+      width: 30%;
+
+    }
+
+    #teachers h3 {
+      margin-top: 5px;
+    }
+
+    #teachers p {
+      margin-top: -15px;
+    }
+
+    #teachers p+p {
+      font-size: 15px;
+      margin: 10px 20px;
+    }
+
+    .color {
+      color: red;
+      font-size: 10px;
+      font-weight: bold;
+
+    }
+
+    /* medium screens */
+    @media only screen and (min-width: 421px) and (max-width: 720px) {
+      #courses {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-top: 30px;
+        height: 300px;
+        width: 50%;
+        gap: 0px;
+        font-family: 'Open Sans', sans-serif;
+
+      }
+
+      .child {
+        display: flex;
+        gap: 0px;
+        width: 90%;
+        height: 140px;
+        margin: 10px 10px;
+
+      }
+    }
+
+    /* small screens */
+    @media only screen and (min-width: 0px) and (max-width: 420px) {
+      #courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        margin-top: 30px;
+        height: 200px;
+        width: 20%;
+        gap: 0px;
+        font-family: 'Open Sans', sans-serif;
+
+      }
+
+      .child {
+        display: flex;
+        gap: 0px;
+        width: 90%;
+        height: 140px;
+        margin: 10px 10px;
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Courses section - top section -->
+  <div id="courses">
+    <!--  -->
+    <div class="child">
+      <div class="icon">
+        <span class="material-icons">
+          business
+        </span>
+
+      </div>
+      <div class="next">
+        <h2>Business School </h2>
+        <p>Cras Vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="child">
+      <div class="icon">
+        <span class="material-icons">
+          language
+        </span>
+
+      </div>
+      <div class="next">
+        <h2>Marketing </h2>
+        <p>Cras Vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="child">
+      <div class="icon">
+        <span class="material-icons">
+          compare
+        </span>
+
+      </div>
+      <div class="next">
+        <h2>Photography </h2>
+        <p>Cras Vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="child">
+      <div class="icon">
+        <span class="material-icons">
+          thumb_up
+        </span>
+      </div>
+      <div class="next">
+        <h2>Social Media </h2>
+        <p>Cras Vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+      </div>
+
+
+    </div>
+    <!--  -->
+    <div class="child">
+      <div class="icon">
+        <span class="material-icons">
+          developer_mode
+        </span>
+
+      </div>
+
+      <div class="next">
+        <h2>Development </h2>
+        <p>Cras Vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+      </div>
+
+    </div>
+    <!--  -->
+    <div class="child">
+      <div class="icon">
+        <span class="material-icons">
+          design_services
+        </span>
+
+      </div>
+      <div class="next">
+        <h2>Design </h2>
+        <p>Cras Vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+      </div>
+
+    </div>
+  </div>
+  <!-- div end  -->
+  <h1>Certified Teachers</h1>
+  <p id="description">
+    Separated they live in. A small river named Duden flows by their place and
+    supplies it with the necessary regelialia. It is a paradisematic country
+  </p>
+  <!-- Teachers Section -->
+  <div id="teachers">
+
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya2luZyUyMHdvbWVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+        height="300" width="300" alt="">
+      <h3> Bianca Wilson </h3>
+      <p class="color">TEACHER</p>
+      <p> I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+    </div>
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1610631066894-62452ccb927c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+        height="300" width="300" alt="">
+      <h3>Mitch parker </h3>
+      <p class="color"> ENGLISH TEACHER</p>
+      <p> I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+    </div>
+    <div>
+      <img
+        src="https://media.istockphoto.com/photos/headshot-of-mature-50-years-old-asian-business-woman-on-grey-picture-id1317784594?b=1&k=20&m=1317784594&s=170667a&w=0&h=BV1ABS-tDluO-Qa0myWpstZFJd6navrs7OezTyNHnVg="
+        height="300" width="300" alt="">
+      <h3>Stella Smith</h3>
+      <p class="color">ART TEACHER</p>
+      <p> I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+    </div>
+    <div>
+      <img
+        src="https://media.istockphoto.com/photos/positivity-puts-you-in-a-position-of-power-picture-id1299077582?b=1&k=20&m=1299077582&s=170667a&w=0&h=Esjqlg_WCWmTc83Dv6PLhwPFwYN9uXoclBn0cUhtS5I="
+        height="300" width="300" alt="">
+      <h3>Monshe Henderson</h3>
+      <p class="color">SCIENCE TEACHER</p>
+      <p> I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+    </div>
+  </div>
+</body>
+
+</html>

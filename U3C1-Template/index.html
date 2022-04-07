@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <div id="menu">
+      <!--Create Show Products button here, give id as "show_products". avoid making spelling mistakes in HTML id's-->
+     <a href="./inventory.html"><button id="show_products">Show Products</button></a> 
+    </div>
+    <div>
+      <h2>Add Products</h2>
+      <form id="product_form" >
+      <label for="">Name</label><br>
+      <input type="text" id="name" placeholder="Entername">
+      <br>
+
+      <label for="">price</label>
+      <br>
+      <input type="number" id="price" placeholder="Enter price">
+      <br>
+      
+      <label for="">Type</label><br>
+      <input type="text" id="type" placeholder="Enter type">
+      <br>
+
+      <label for="">Image</label><br>
+      <input type="text" id="image" placeholder="Enter url">
+      <br>
+      <br>
+    <input  type="submit" id="submit" value="Submit" > 
+      
+      
+      <!--Create a form here to accept product data from user, give form HTML id as "product_form"-->
+
+      <!--Create four inputs to accept name, price, type and image-->
+      <!--give the inputs following respective id's, "name", "price","type","image"-->
+      <!--create a submit option to submit form, give it html id as "submit"-->
+      </form>
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/index.js"></script>
